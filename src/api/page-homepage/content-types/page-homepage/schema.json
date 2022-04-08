@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "page_homepages",
+  "info": {
+    "singularName": "page-homepage",
+    "pluralName": "page-homepages",
+    "displayName": "Page: homepage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "test": {
+      "type": "string"
+    }
+  }
+}
