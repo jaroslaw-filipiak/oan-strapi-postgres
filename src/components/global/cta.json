@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_global_ctas",
+  "info": {
+    "displayName": "CTA",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "cta_content": {
+      "type": "richtext"
+    },
+    "cta_btn_txt": {
+      "type": "string"
+    },
+    "cta_icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
