@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_about_timetables",
+  "info": {
+    "displayName": "timetable",
+    "icon": "chevron-right"
+  },
+  "options": {},
+  "attributes": {
+    "year": {
+      "type": "biginteger"
+    },
+    "timetable_icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "timetable_content": {
+      "type": "text"
+    }
+  }
+}

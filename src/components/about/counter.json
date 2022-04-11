@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_about_counters",
+  "info": {
+    "displayName": "counter",
+    "icon": "arrow-alt-circle-down"
+  },
+  "options": {},
+  "attributes": {
+    "count": {
+      "type": "biginteger"
+    },
+    "counter_icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "counter_txt": {
+      "type": "string"
+    }
+  }
+}

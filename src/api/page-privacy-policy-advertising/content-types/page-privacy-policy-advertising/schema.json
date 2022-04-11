@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "page_privacy_policy_advertisings",
+  "info": {
+    "singularName": "page-privacy-policy-advertising",
+    "pluralName": "page-privacy-policy-advertisings",
+    "displayName": "Page: privacy-policy-advertising"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "page_title": {
+      "type": "string"
+    },
+    "page_content": {
+      "type": "richtext"
+    }
+  }
+}

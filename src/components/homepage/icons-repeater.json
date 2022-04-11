@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_homepage_icons_repeaters",
+  "info": {
+    "displayName": "icons_repeater",
+    "icon": "angle-double-right"
+  },
+  "options": {},
+  "attributes": {
+    "icons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.icon"
+    }
+  }
+}

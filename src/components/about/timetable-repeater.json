@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_about_timetable_repeaters",
+  "info": {
+    "displayName": "timetable_repeater",
+    "icon": "arrow-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "years": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about.timetable"
+    },
+    "section_title": {
+      "type": "string"
+    }
+  }
+}

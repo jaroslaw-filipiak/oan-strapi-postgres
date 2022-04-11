@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "page_rodos",
+  "info": {
+    "singularName": "page-rodo",
+    "pluralName": "page-rodos",
+    "displayName": "Page: RODO",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "page_title": {
+      "type": "richtext"
+    },
+    "RODO_main_icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "rodo_header": {
+      "type": "richtext"
+    },
+    "sectons_with_icon": {
+      "type": "component",
+      "repeatable": true,
+      "component": "rodo.icons-section"
+    }
+  }
+}

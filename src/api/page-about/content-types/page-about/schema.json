@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "page_abouts",
+  "info": {
+    "singularName": "page-about",
+    "pluralName": "page-abouts",
+    "displayName": "Page: about",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Slider": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.slider-repeater"
+    },
+    "Years": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.timetable-repeater"
+    },
+    "Counters": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.counter-repeater"
+    },
+    "CTA": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.cta"
+    }
+  }
+}

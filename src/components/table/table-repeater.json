@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_table_table_repeaters",
+  "info": {
+    "displayName": "table_repeater",
+    "icon": "border-all"
+  },
+  "options": {},
+  "attributes": {
+    "table_row_repeater_item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "table.table-row"
+    }
+  }
+}

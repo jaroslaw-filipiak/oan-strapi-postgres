@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_about_sliders",
+  "info": {
+    "displayName": "slider",
+    "icon": "arrow-alt-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "slider_title": {
+      "type": "string"
+    },
+    "slider_subtitle": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_contact_our_group_items",
+  "info": {
+    "displayName": "our-group-item",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "our_group_logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "our_group_item_content": {
+      "type": "richtext"
+    }
+  }
+}

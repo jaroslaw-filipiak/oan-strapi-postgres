@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_table_table_rows",
+  "info": {
+    "displayName": "table_row",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "row_title": {
+      "type": "string"
+    },
+    "programmatic_model_stars": {
+      "type": "integer",
+      "default": 2,
+      "max": 3
+    },
+    "classic_model_stars": {
+      "type": "integer",
+      "default": 2,
+      "max": 3
+    }
+  }
+}

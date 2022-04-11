@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_contact_our_group_items_repeaters",
+  "info": {
+    "displayName": "our_group_items_repeater",
+    "icon": "angle-double-up",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "our_group_items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "contact.our-group-item"
+    },
+    "first_item_logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "first_item_content": {
+      "type": "richtext"
+    }
+  }
+}

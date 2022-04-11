@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_homepage_icons",
+  "info": {
+    "displayName": "icon",
+    "icon": "arrow-circle-left"
+  },
+  "options": {},
+  "attributes": {
+    "icon_img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "icon_txt": {
+      "type": "text"
+    }
+  }
+}

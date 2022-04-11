@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_rodo_single_icons",
+  "info": {
+    "displayName": "single_icon",
+    "icon": "arrows-alt-v"
+  },
+  "options": {},
+  "attributes": {
+    "single_icon_img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "single_icon_txt": {
+      "type": "richtext"
+    }
+  }
+}

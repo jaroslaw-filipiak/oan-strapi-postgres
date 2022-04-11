@@ -26,6 +26,26 @@
       "type": "component",
       "repeatable": false,
       "component": "global.cta"
+    },
+    "Table": {
+      "type": "component",
+      "repeatable": false,
+      "component": "table.table-repeater"
+    },
+    "Icons": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.icons-repeater"
+    },
+    "Logos": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.logos-repeater"
+    },
+    "CTA_2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.cta"
     }
   }
 }

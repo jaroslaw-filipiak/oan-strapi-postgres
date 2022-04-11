@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "page_contacts",
+  "info": {
+    "singularName": "page-contact",
+    "pluralName": "page-contacts",
+    "displayName": "Page: contact",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "form_section_content": {
+      "type": "richtext"
+    },
+    "map_address": {
+      "type": "richtext"
+    },
+    "company_info_column_left": {
+      "type": "richtext"
+    },
+    "company_info_column_right": {
+      "type": "richtext"
+    },
+    "our_group": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact.our-group-items-repeater"
+    }
+  }
+}

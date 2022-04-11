@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_rodo_icons_sections",
+  "info": {
+    "displayName": "icons_section",
+    "icon": "atom"
+  },
+  "options": {},
+  "attributes": {
+    "section_title": {
+      "type": "richtext"
+    },
+    "icons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "rodo.single-icon"
+    }
+  }
+}

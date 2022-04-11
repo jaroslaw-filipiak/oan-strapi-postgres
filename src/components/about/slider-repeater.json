@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_about_slider_repeaters",
+  "info": {
+    "displayName": "slider_repeater",
+    "icon": "arrow-circle-up"
+  },
+  "options": {},
+  "attributes": {
+    "slider_repeater": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about.slider"
+    }
+  }
+}
