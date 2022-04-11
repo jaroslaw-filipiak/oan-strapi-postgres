@@ -16,16 +16,6 @@
       "type": "component",
       "repeatable": false,
       "component": "homepage.home-hero"
-    },
-    "features": {
-      "type": "component",
-      "repeatable": false,
-      "component": "homepage.feature-items"
-    },
-    "CTA": {
-      "type": "component",
-      "repeatable": false,
-      "component": "global.cta"
     }
   }
 }
