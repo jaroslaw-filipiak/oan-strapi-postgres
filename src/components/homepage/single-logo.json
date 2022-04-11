@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_homepage_single_logos",
+  "info": {
+    "displayName": "single_logo",
+    "icon": "angle-up"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
