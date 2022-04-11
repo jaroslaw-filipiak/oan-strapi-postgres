@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_homepage_home_heroes",
+  "info": {
+    "displayName": "home-hero",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "home_hero_heading": {
+      "type": "richtext"
+    },
+    "home_hero_subheading": {
+      "type": "richtext"
+    },
+    "newsletter_law_info": {
+      "type": "richtext"
+    },
+    "hero_img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

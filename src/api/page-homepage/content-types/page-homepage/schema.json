@@ -4,15 +4,28 @@
   "info": {
     "singularName": "page-homepage",
     "pluralName": "page-homepages",
-    "displayName": "Page: homepage"
+    "displayName": "Page: homepage",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "test": {
-      "type": "string"
+    "Hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.home-hero"
+    },
+    "features": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.feature-items"
+    },
+    "CTA": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.cta"
     }
   }
 }

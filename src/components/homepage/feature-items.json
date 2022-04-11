@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_homepage_feature_items",
+  "info": {
+    "displayName": "feature_items",
+    "icon": "braille"
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.feature-item"
+    },
+    "section_subtitle": {
+      "type": "richtext"
+    },
+    "section_title": {
+      "type": "richtext"
+    }
+  }
+}

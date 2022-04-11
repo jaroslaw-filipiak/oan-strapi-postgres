@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_homepage_feature_items",
+  "info": {
+    "displayName": "feature_item",
+    "icon": "air-freshener"
+  },
+  "options": {},
+  "attributes": {
+    "feature_item_icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "feature_item_title": {
+      "type": "string"
+    },
+    "feature_item_subtitle": {
+      "type": "text"
+    },
+    "feature_item_excerpt": {
+      "type": "text"
+    }
+  }
+}
